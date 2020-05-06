@@ -24,7 +24,7 @@ describe '#parrot' do
   end
 end
 
-def parrot("string")
-  puts "string"
-  "string"
+def parrot(string)
+  puts #{string}
+  return #{string}
 end
