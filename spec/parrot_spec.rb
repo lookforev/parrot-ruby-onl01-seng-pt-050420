@@ -26,5 +26,5 @@ end
 
 def parrot("string")
   puts "string"
-  return "string"
+  "string"
 end
